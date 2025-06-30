@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/apashe.css">
+    <title>Apashe songs</title>
+</head>
+
+<body class="toggle">
+    <div class="place">
+        <button class="title">
+            <span class="before-text">&nbsp;APASHE&nbsp;</span>
+            <span class="after-text">&nbsp;APASHE&nbsp;</span>
+        </button>
+    </div>
+    <div class="ban"><img class="banner" src="images/apashe/cover/banner.jpg" alt="banner"></div>
+
+    <section class="ligne1">
+        <img src="images/apashe/cover/skull.jpg" alt="skull">
+        <img src="images/apashe/cover/goat.jpg" alt="goat">
+        <img src="images/apashe/cover/heart.jpg" alt="heart">
+    </section>
+
+    <section class="ligne2">
+        <img src="images/apashe/cover/w_requiem.jpg" alt="white requiem">
+        <img src="images/apashe/cover/angel.jpg" alt="angel">
+        <img src="images/apashe/cover/requiem.jpg" alt="black requiem">
+    </section>
+
+    <section class="ligne3">
+        <img src="images/apashe/cover/b_angel.jpg" alt="black angel">
+        <img src="images/apashe/cover/liberty.png" alt="liberty statue">
+        <img src="images/apashe/cover/skeleton.jpg" alt="skeleton">
+    </section>
+
+
+
+    <section class="ligne4">
+        <img src="images/apashe/suite/2angels.png" alt="">
+        <img src="images/apashe/suite/bow.png" alt="">
+        <img src="images/apashe/suite/flying_angel.png" alt="">
+    </section>
+
+    <section class="ligne5">
+        <img src="images/apashe/suite/arrow.png" alt="">
+        <img src="images/apashe/suite/hero.png" alt="">
+        <img src="images/apashe/suite/b_angel.jpg" alt="">
+    </section>
+
+    <section class="ligne6">
+        <img src="images/apashe/suite/gold.png" alt="">
+        <img src="images/apashe/suite/baton.png" alt="">
+        <img src="images/apashe/suite/black.png" alt="">
+    </section>
+
+    <section class="ligne7">
+        <img src="images/apashe/suite/g_skel.jpg" alt="">
+    </section>
+
+
+
+    <audio id="myAudio" autoplay>
+        <source src="images/apashe/sound/good-news.mp3" type="audio/mp3">
+    </audio>
+
+    <div class="audio-player">
+        <input id="checkbox" type="checkbox">
+        <label class="fleche" for="checkbox"><span></span></label>
+        <div class="album-cover"></div>
+        <div class="player-controls">
+            <div class="song-info">
+                <div class="song-title">Work</div>
+                <p class="artist">Apashe</p>
+            </div>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+            <div class="buttons">
+                <button class="play-btn" style="display: none;" onclick="toggleButtons()">
+                    <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                        <path
+                            d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"
+                            fill="white"></path>
+                    </svg>
+                </button>
+                <button class="pause-btn" onclick="toggleButtons()">
+                    <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-pause-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"
+                            fill="white"></path>
+                    </svg>
+                </button>
+            </div>
+
+        </div>
+        <div class="playing">
+            <div class="goldline line-1"></div>
+            <div class="goldline line-2"></div>
+            <div class="goldline line-3"></div>
+            <div class="goldline line-4"></div>
+            <div class="goldline line-5"></div>
+        </div>
+    </div>
+
+    <div class="theme">
+        <div class="check">
+            <input checked="" id="check-5" type="checkbox">
+            <label for="check-5"></label>
+        </div>
+    </div>
+    
+    
+    <div class="space">
+        <span class="star1" style="--i: 10"></span>
+        <span class="star2" style="--i: 20"></span>
+        <span class="star3" style="--i: 30"></span>
+        <span class="star4" style="--i: 40"></span>
+        <span class="star5" style="--i: 50"></span>
+        <span class="star6" style="--i: 60"></span>
+        <span class="star7" style="--i: 70"></span>
+        <span class="star8" style="--i: 80"></span>
+        <span class="star9" style="--i: 90"></span>
+        <span class="star10" style="--i: 100"></span>
+      </div>
+    
+    
+    <script src="scripts/apashe.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    </body>
+    
+    </html>

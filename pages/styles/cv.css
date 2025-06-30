@@ -1,0 +1,282 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #252a38;
+}
+
+.place {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.CV {
+  overflow: hidden;
+  width: 900px;
+  height: 1300px;
+  border-radius: 12px;
+  background: #384f8937;
+  z-index: 999;
+}
+
+.silhouette1 {
+  position: fixed;
+  top: 30%;
+  left: 70%;
+  width: 8%;
+  height: 4%;
+  background-color: #058359;
+  filter: blur(25px);
+  border-radius: 999px;
+  transform: scale(3.5) skew(50deg, 0);
+  z-index: 1;
+}
+
+h1 {
+  position: relative;
+  top: -150px;
+  left: -200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h2, h1 {
+  background: linear-gradient(
+        to right,
+        #7953cd 20%,
+        #00affa 30%,
+        #0190cd 70%,
+        #764ada 80%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    background-size: 500% auto;
+    animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
+p {
+  text-align: justify;
+  color: white;
+  width: 300px;
+}
+
+.photo {
+  position: relative;
+  top: 50px;
+  left: 85px;
+  width: 175px;
+  border-radius: 20px;
+  filter: invert(100%);
+}
+
+#description {
+  position: relative;
+  left: 380px;
+  top: -130px;
+  text-align: justify;
+  width: 400px;
+}
+
+#conta {
+  position: relative;
+  bottom: 110px;
+  left: 80px;
+}
+
+#mail {
+  position: relative;
+  bottom: 80px;
+  left: 80px;
+}
+
+#phone {
+  position: relative;
+  bottom: 85px;
+  left: 80px;
+}
+
+#permis {
+  position: relative;
+  bottom: 85px;
+  left: 80px;
+}
+
+#exp {
+  position: relative;
+  bottom: 45px;
+  left: 80px;
+}
+
+#stage {
+  position: relative;
+  bottom: 35px;
+  left: 80px;
+}
+
+#etu {
+  position: relative;
+  top: -10px;
+  left: 80px;
+}
+
+#autoformation {
+  position: relative;
+  top: -10px;
+  left: 80px;
+  line-height: 30px;
+}
+
+
+#bachelor {
+  position: relative;
+  top: -10px;
+  left: 80px;
+  width: 380px;
+  line-height: 30px;
+}
+
+#bac {
+  position: relative;
+  top: -10px;
+  left: 80px;
+  line-height: 30px;
+}
+
+#inte {
+  position: relative;
+  top: 10px;
+  left: 80px;
+}
+
+#cont_inte {
+  position: relative;
+  top: 20px;
+  left: 80px;
+  line-height: 30px;
+}
+
+#comp {
+  position: relative;
+  bottom: 940px;
+  left: 520px;
+}
+
+#cont_comp {
+  position: relative;
+  bottom: 940px;
+  left: 520px;
+  line-height: 30px;
+}
+
+#quali {
+  position: relative;
+  bottom: 900px;
+  left: 520px;
+}
+
+#cont_quali {
+  position: relative;
+  bottom: 900px;
+  left: 520px;
+  line-height: 30px;
+}
+
+#proj {
+  position: relative;
+  bottom: 860px;
+  left: 520px;
+}
+
+#wordp {
+  position: relative;
+  bottom: 860px;
+  left: 520px;
+}
+
+#lang {
+  position: relative;
+  bottom: 820px;
+  left: 520px;
+}
+
+#angl {
+  position: relative;
+  bottom: 820px;
+  left: 520px;
+}
+
+
+.github {
+  margin-top: -.6em;
+  margin-left: 1.2em;
+}
+
+.carte1 {
+    position: relative;
+    top: -100px; /* Adjusted to appear below #phone */
+    left: 80px; /* Align with other left-column elements */
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.carte2 {
+    position: relative;
+    top: -105px; /* Adjusted to appear below .carte1 */
+    left: 100px; /* Slightly offset to the right for side-by-side placement */
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.linkedin {
+  margin-top: -.9em;
+  margin-left: -1.2em;
+  width: 20px;
+  height: 20px;
+  fill: black;
+}
+
+.carte1:hover {
+  cursor: pointer;
+  scale: 1.15;
+  background-color: black;
+}
+
+.carte1:hover .github {
+  fill: white;
+}
+
+.carte2:hover {
+  cursor: pointer;
+  scale: 1.15;
+  background-color: black;
+}
+
+.carte2:hover .linkedin {
+  fill: white;
+}

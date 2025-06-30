@@ -1,0 +1,5 @@
+galerie photo avec grid et photo minecraft rinaorc parcel shaders
+
+refaire le CV en code
+
+faire une nouvelle page avec agents valorant png avec bouton d'entrer et effets et selection d'agents avec flèche gauche et droite
