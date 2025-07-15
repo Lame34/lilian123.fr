@@ -79,23 +79,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 window.addEventListener('scroll', function() {
-    // Sélectionnez les éléments à faire sortir de l'écran
+    
     const elements = [document.getElementById('navig'), document.getElementById('logo')];
-
-    // Obtenez la hauteur de la fenêtre
     const windowHeight = window.innerHeight;
 
-    // Obtenez la distance de défilement
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-    // Définissez la hauteur à laquelle les éléments doivent commencer à bouger
-    const moveStart = 100; // En pixels, ajustez selon vos besoins
-
-    // Définissez la hauteur à laquelle les éléments doivent être complètement en dehors de l'écran
-    const moveEnd = 300; // En pixels, ajustez selon vos besoins
+    const moveStart = 100; 
+    const moveEnd = 300;
 
     elements.forEach(element => {
-        // Calculez la position et l'opacité
         let translateY = 0;
         let opacity = 1;
         if (scrollTop > moveStart) {
@@ -109,7 +101,6 @@ window.addEventListener('scroll', function() {
             }
         }
 
-        // Appliquez la transformation et l'opacité à l'élément
         element.style.transform = `translateY(${translateY}px)`;
         element.style.opacity = opacity;
     });

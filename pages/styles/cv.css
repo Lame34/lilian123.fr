@@ -227,8 +227,8 @@ p {
 
 .carte1 {
     position: relative;
-    top: -100px; /* Adjusted to appear below #phone */
-    left: 80px; /* Align with other left-column elements */
+    top: -100px;
+    left: 80px;
     width: 90px;
     height: 90px;
     outline: none;
@@ -241,8 +241,8 @@ p {
 
 .carte2 {
     position: relative;
-    top: -105px; /* Adjusted to appear below .carte1 */
-    left: 100px; /* Slightly offset to the right for side-by-side placement */
+    top: -105px;
+    left: 100px;
     width: 90px;
     height: 90px;
     outline: none;

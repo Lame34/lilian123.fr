@@ -83,40 +83,39 @@ hr {
     background: white;
     border: none;
     outline: none;
-    margin: 3em auto 5em; /* Default margin adjusted */
+    margin: 3em auto 5em;
     position: relative;
 }
 
-/* Adjustments for different screen sizes */
 @media (max-width: 1024px) {
     hr#one {
-        width: 80%; /* Adjusted width */
-        margin: 3em auto; /* Adjusted margin */
+        width: 80%;
+        margin: 3em auto;
     }
     hr#two {
-        width: 80%; /* Adjusted width */
-        margin: 3em auto; /* Adjusted margin */
+        width: 80%;
+        margin: 3em auto;
     }
 }
 
 @media (max-width: 768px) {
     hr#one {
-        width: 90%; /* Adjusted width */
-        margin: 2em auto; /* Adjusted margin */
+        width: 90%;
+        margin: 2em auto;
     }
     hr#two {
-        width: 90%; /* Adjusted width */
-        margin: 2em auto; /* Adjusted margin */
+        width: 90%;
+        margin: 2em auto;
     }
 }
 
 @media (max-width: 480px) {
     hr#one {
-        width: 95%; /* Adjusted width */
-        margin: 1em auto; /* Adjusted margin */
+        width: 95%;
+        margin: 1em auto;
     }
     hr#two {
-        width: 95%; /* Adjusted width */
-        margin: 1em auto; /* Adjusted margin */
+        width: 95%;
+        margin: 1em auto;
     }
 }

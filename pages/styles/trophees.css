@@ -263,10 +263,6 @@ p {
   margin-left: 56px;
 }
 
-
-/* Media queries pour différents appareils */
-
-/* Tablettes en mode portrait et paysage */
 @media (max-width: 1024px) {
   h1 {
     font-size: 3.5em;
@@ -311,7 +307,7 @@ p {
   }
 }
 
-/* Smartphones en mode paysage */
+/* mode smartphone */
 @media (max-width: 768px) {
   h1 {
     font-size: 2.5em;
